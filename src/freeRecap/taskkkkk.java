@@ -26,16 +26,9 @@ public class taskkkkk {
 	        
 	        if(inhabitants[i]==0){
 	          
-	          if(inhabitants[i+1]==inhabitants[i-1]){
-	            
-	            inhabitants[i-1] = inhabitants[i-1]/2;
-	            
-	          }else{
-	          
 	          inhabitants[i-1] = inhabitants[i-1]/2;
 	          inhabitants[i+1] = inhabitants[i+1]/2;
 	          
-	          }
 	        }
 	      }
 	      
@@ -45,6 +38,6 @@ public class taskkkkk {
 	    }
 	    
 	    System.out.println("---- EXTINCT ----");
-	    
+	    System.out.println("........");
 	  }
 	}
