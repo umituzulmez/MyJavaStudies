@@ -39,7 +39,6 @@ public class JobTest {
 			
 		}
 		
-		
 		System.out.println(jobList.get(heighestIndex).getAnnualSalary());
 	}
 

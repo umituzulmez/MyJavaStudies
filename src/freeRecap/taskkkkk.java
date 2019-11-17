@@ -22,15 +22,41 @@ public class taskkkkk {
 	    
 	    while(!Arrays.equals(inhabitants, nullArray)){
 	      
-	      for(int i=1; i<inhabitants.length-1; i++){
-	        
-	        if(inhabitants[i]==0){
-	          
-	          inhabitants[i-1] = inhabitants[i-1]/2;
-	          inhabitants[i+1] = inhabitants[i+1]/2;
-	          
-	        }
-	      }
+	    	boolean[] flag = new boolean[8];
+	    	
+	    	for(int i=0; i<inhabitants.length; i++) {
+	    		
+	    		if(i==0) {
+	    			
+	    			if(inhabitants[i]==0) {
+	    				
+	    				flag[i+1]=true;
+	    			}
+	    			
+	    		}else if(i>0 && i<inhabitants.length-1) {
+	    		
+	    			if(inhabitants[i]==0) {
+	    			
+	    				flag[i-1] = true;
+	    				flag[i+1] = true;
+	    			}
+	    		
+	    		}else if(i==inhabitants.length-1) {
+	    		
+	    			if(inhabitants[i]==0) {
+	    			
+	    				flag[i-1] = true;
+	    			}
+	    		}
+	    	}
+	    	
+			   for(int i=0; i<inhabitants.length; i++){
+			     
+				   if(flag[i]) {
+					   
+					   inhabitants[i] = inhabitants[i]/2;   
+				   }  
+			      }
 	      
 	      System.out.println("Day " + day + " " + Arrays.toString(inhabitants));
 	    
@@ -38,6 +64,5 @@ public class taskkkkk {
 	    }
 	    
 	    System.out.println("---- EXTINCT ----");
-	    System.out.println("........");
 	  }
 	}
