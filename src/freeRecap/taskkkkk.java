@@ -10,7 +10,8 @@ public class taskkkkk {
 	    Scanner input = new Scanner(System.in);
 	    int[] inhabitants = new int[8];
 	    for(int i=0; i<inhabitants.length; i++) {
-	      inhabitants[i] = input.nextInt();
+	    inhabitants[i] = input.nextInt();
+	    
 	    }
 	    
 	    //TODO. Write you code below this line. 

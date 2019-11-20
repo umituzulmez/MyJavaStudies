@@ -9,7 +9,7 @@ public class task19_incrementDecrement {
 
 		int result = --a + a++ + a-- + a++;
 		
-		//a= 49 + 49 + 50 + 49;
+		//a=		 49 +	49 + 50 + 49;
 
 		System.out.println("a = " + a);
 		System.out.println("result = " + result);

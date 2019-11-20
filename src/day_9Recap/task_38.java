@@ -5,7 +5,7 @@ public class task_38 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int day=3;
+		int day=9;
 		
 		switch(day) {
 			case 1:
