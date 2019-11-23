@@ -16,6 +16,8 @@ public class StudentTest {
 
 		System.out.println(s1.school);
 		System.out.println(Student.school); //we can call directly without creating object because of being static
+		//System.out.println(Student.name);	//we can not call directly without creating object because of not being static
+		
 	}
 
 }

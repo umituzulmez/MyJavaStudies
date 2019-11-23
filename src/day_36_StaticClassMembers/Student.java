@@ -4,20 +4,20 @@ public class Student {
 	
 	String name;
 	int age;
-	int İdNumber;
+	int idNumber;
 	static String school = "Cybertek";
 	
 	
 	public Student(String name, int age, int idNumber) {
 		this.name = name;
 		this.age = age;
-		İdNumber = idNumber;
+		this.idNumber = idNumber;
 		
 	}
 
 
 	public String toString() {
-		return "Student [name=" + name + ", age=" + age + ", İdNumber=" + İdNumber + ", school=" + school + "]";
+		return "Student [name=" + name + ", age=" + age + ", idNumber=" + idNumber + ", school=" + school + "]";
 	}
 	
 

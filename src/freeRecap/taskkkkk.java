@@ -1,69 +1,53 @@
 package freeRecap;
 
-import java.util.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class taskkkkk {
 
 	public static void main(String[] args) {
+	
+	
+	String info1 = "This info is used for creation password : xxxCD132Gxxx . Please do not share with anyone";
 		
-	    Scanner input = new Scanner(System.in);
-	    int[] inhabitants = new int[8];
-	    for(int i=0; i<inhabitants.length; i++) {
-	    inhabitants[i] = input.nextInt();
-	    
-	    }
-	    
-	    //TODO. Write you code below this line. 
-	    
-	    System.out.println("Day 0 " + Arrays.toString(inhabitants));
-	    
-	    int day = 1;
-	    int[] nullArray = new int[8];
-	    
-	    while(!Arrays.equals(inhabitants, nullArray)){
-	      
-	    	boolean[] flag = new boolean[8];
-	    	
-	    	for(int i=0; i<inhabitants.length; i++) {
-	    		
-	    		if(i==0) {
-	    			
-	    			if(inhabitants[i]==0) {
-	    				
-	    				flag[i+1]=true;
-	    			}
-	    			
-	    		}else if(i>0 && i<inhabitants.length-1) {
-	    		
-	    			if(inhabitants[i]==0) {
-	    			
-	    				flag[i-1] = true;
-	    				flag[i+1] = true;
-	    			}
-	    		
-	    		}else if(i==inhabitants.length-1) {
-	    		
-	    			if(inhabitants[i]==0) {
-	    			
-	    				flag[i-1] = true;
-	    			}
-	    		}
-	    	}
-	    	
-			   for(int i=0; i<inhabitants.length; i++){
-			     
-				   if(flag[i]) {
-					   
-					   inhabitants[i] = inhabitants[i]/2;   
-				   }  
-			      }
-	      
-	      System.out.println("Day " + day + " " + Arrays.toString(inhabitants));
-	    
-	      day++;
-	    }
-	    
-	    System.out.println("---- EXTINCT ----");
-	  }
+	String info2 = "This info is used for creation password : xxx00ABC!xxx . Please do not share with anyone";
+	
+	
+		String[] bölünmüş1 = info1.split("xxx "); 
+		
+		System.out.println(Arrays.toString(bölünmüş1));
+		
+		System.out.println(bölünmüş1[8]);
+		
+		String[] bölünmüş2 = info2.split(" "); 
+		
+		System.out.println(Arrays.toString(bölünmüş2));
+		
+		System.out.println(bölünmüş2[8]);
+		
+		String[] şifre1 = bölünmüş1[8].split("xxx");
+		
+		System.out.println(Arrays.toString(şifre1));
+		
+		System.out.println(şifre1.length);
+		
+		System.out.println(şifre1[1]);
+		
+		String[] şifre2 = bölünmüş2[8].split("xxx");
+		
+		System.out.println(Arrays.toString(şifre2));
+		
+		System.out.println(şifre2.length);
+		
+		System.out.println(şifre2[1]);
+		
+		String sonŞifre = şifre1[1] + şifre2[1];
+		
+		System.out.println("Şifre : " + sonŞifre);
+		
+		System.out.println(sonŞifre);
+		
+		
 	}
+		
+}

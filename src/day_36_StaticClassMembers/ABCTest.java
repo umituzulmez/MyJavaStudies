@@ -6,11 +6,11 @@ public class ABCTest {
 		
 		ABC.m1(); // call method thru only static way
 		
-		//ABC o1 = new ABC();
-		//o1.m1();
+//		ABC o1 = new ABC();
+//		o1.m1();
 		
 
-		//Whenever all of your methods in you class are static and you want everyone to call them
+		//Whenever all of your methods in your class are static and you want everyone to call them
 		//static way(Classname.methodName(), then you can simply make your constructor private
 
 	}

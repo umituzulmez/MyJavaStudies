@@ -1,6 +1,6 @@
 package day_36_StaticClassMembers;
 
-public class StaicInit {
+public class StaticInit {
 	
 	public static final int NUM_SECONDS_PER_HOURS;
 	

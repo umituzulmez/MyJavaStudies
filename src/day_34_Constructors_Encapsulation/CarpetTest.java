@@ -13,6 +13,7 @@ public class CarpetTest {
 		Calculator cal2 = new Calculator(new Floor(10,12), new Carpet(8));
 		
 		System.out.println(cal2.getTotalCost());
+		
 
 	}
 
