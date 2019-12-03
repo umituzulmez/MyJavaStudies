@@ -9,8 +9,11 @@ public class Company {
 		Contractor ct = new Contractor();
 		
 		emp.calculatePay(40, 40);
-		ft.calculatePay(20, 20);
-		ct.calculatePay(10, 10);
+		ft.calculatePay(40, 40);
+		ct.calculatePay(40, 40);
+		
+		
+		
 
 	}
 

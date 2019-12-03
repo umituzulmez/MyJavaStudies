@@ -34,7 +34,7 @@ public class JobTest {
 			if(jobList.get(i).getAnnualSalary()>maxSalary) {
 				
 				maxSalary = jobList.get(i).getAnnualSalary();
-				heighestIndex = i; //which index has the heighest salary
+				heighestIndex = i; //which index has the highest salary
 			}
 			
 		}

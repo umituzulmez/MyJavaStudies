@@ -1,4 +1,4 @@
-package day_32_arratList_part2;
+package day_32_arrayList_part2;
 
 import java.util.ArrayList;
 import java.util.Random;

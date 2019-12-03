@@ -21,8 +21,10 @@ public class FinalExamTest {
 		
 		// Output: The grade for the exam is C
 		
+		
 		FinalExam exam = new FinalExam(questions,missed);
 		
+		System.out.println("The score for the exam is " + exam.getScore());
 		System.out.println("The grade for the exam is " + exam.getGrade());
 
 	}
