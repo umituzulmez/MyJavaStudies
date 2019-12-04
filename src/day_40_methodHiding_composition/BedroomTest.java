@@ -19,7 +19,7 @@ public class BedroomTest {
 		theBedroom.getBed().make();
 		
 		theBedroom.getLamp().turnOn();
-		
+				
 		
 	}
 
