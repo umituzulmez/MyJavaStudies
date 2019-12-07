@@ -46,7 +46,7 @@ public class FinalVariables {
 		
 		System.out.println("Max range for roadster" + finalVars.ROADSTER_MAX_RANGE);
 		System.out.println("Model 3 max speed:" + finalVars.MODEL_3_MAX_SPEED);
-		System.out.println("Admin" + ADMIN_USERNAME);
+		System.out.println("Admin:" + ADMIN_USERNAME);
 		
 		
 	}
