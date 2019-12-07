@@ -5,6 +5,7 @@ public class MethodHidingTest {
 	public static void main(String[] args) {
 		
 		Panda.eat();
+		Bear.eat();
 		
 	}
 
@@ -39,7 +40,7 @@ class Panda extends Bear{
 	/*
 	public void sneeze() {
 		
-		System.out.println("Panda is sneexing");
+		System.out.println("Panda is sneezing");
 	}
 	*/
 	
