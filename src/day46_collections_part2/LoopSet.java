@@ -23,6 +23,13 @@ public class LoopSet {
 		System.out.println(nums.size());
 		System.out.println(nums);
 		
+		for(int n : nums) {
+			System.out.print(n + " | ");
+		}
+		
+		System.out.println();
+		
+		nums.forEach(n -> System.out.print(n + " | "));
 		
 		
 	}
