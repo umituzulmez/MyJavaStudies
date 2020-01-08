@@ -32,4 +32,6 @@ public class taskkkkk {
 	  System.out.println(nums);
 	}
 	
+	
+	
 }
