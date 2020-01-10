@@ -10,6 +10,8 @@ public class wrapperClassMethods {
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(Integer.MAX_VALUE);
 		
+		int num = Integer.MAX_VALUE;
+		
 		System.out.println(Character.MIN_VALUE);
 		System.out.println(Character.MAX_VALUE);
 		
